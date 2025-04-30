@@ -1,4 +1,4 @@
-// main.go
+// basics.go
 package main
 
 import (
@@ -6,7 +6,7 @@ import (
 	// "math"
 )
 
-func main() {
+func Basics() {
 	fmt.Println("🚀 Day 1 - Go is working!")
 
 	name := "XXX"
