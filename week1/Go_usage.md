@@ -27,3 +27,22 @@
 - check if a key exist
     - elem, ok = m[key]
     - return boolean val
+
+## Method and Interfaces
+- A method is a function with a special receiver argument
+    - func (r ReceiverType) MethodName(params) returnType [Method]
+    - func Abs(v Vertex) float64 [Function]
+- Pointer receiver
+    - Methods with pointer receivers can modify the value to which the receiver points
+- Interface
+
+## Concurrency
+- Goroutine
+    - Lightweight thread
+    - go f(x,y,z)
+    - cheap, run independently
+- Channels
+    - a pipe through which goroutines can send and receive values of a specific type
+    - Send: ch <- value
+    - Receive: x := <-ch
+    - buffered channels

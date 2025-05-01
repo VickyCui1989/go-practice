@@ -7,4 +7,6 @@ func main() {
 	WordCount("Hello world hello") // from struct_map_slice.go
 	SliceDemo()                    // from struct_map_slice.go
 	MapDemo()                      // from struct_map_slice.go
+	MethodInterfaceDemo()          // from method_interface.go
+	ConcurrencyDemo()              // from concurrency.go
 }
